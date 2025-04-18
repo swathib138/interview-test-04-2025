@@ -23,7 +23,7 @@ public class KmbalMovieReviewsEndToEndTest {
     @BeforeMethod
     public void setUp() {
         // Set up the WebDriver (update the path as necessary)
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\bandi\\IdeaProjects\\interview-test-04-2025\\web\\EndToEndTests\\chromedriver-win64");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\bandi\\IdeaProjects\\interview-test-04-2025\\chromedriver-win64");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
